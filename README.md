@@ -1,2 +1,8 @@
 # Forecast-Now
-Weather app
+## A design focused weather app made in React/Typescript
+### Web page designs are subject to change
+
+
+![Landing Page](https://github.com/Eliascm17/Forecast-Now/blob/master/renders/landingpage.png "Landing Page")
+
+![3-day weather forecast](https://github.com/Eliascm17/Forecast-Now/blob/master/renders/3dayforecast.png "3-day weather forecast")
