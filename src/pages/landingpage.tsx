@@ -1,10 +1,8 @@
 import React from 'react'
-import { searchBar } from './components/searchBar';
+import { SearchBar } from '../components/SearchBar'
 
-const landingpage = () => {
+export const landingpage = () => {
     <>
-       
+       <SearchBar/>
     </>
 }
-
-export default landingpage;
