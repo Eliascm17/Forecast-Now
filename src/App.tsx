@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Landingpage } from './pages/Landingpage';
+import { Home } from './pages/Home';
 
 function App() {
   return (
     <>
-      <Landingpage/>
+      <Home/>
     </>
   );
 }

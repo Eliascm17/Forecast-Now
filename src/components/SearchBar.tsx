@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles, Theme, createStyles,FormControl, OutlinedInput } from "@material-ui/core";
+import { makeStyles, Theme, createStyles,FormControl, OutlinedInput, InputBase } from "@material-ui/core";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -36,11 +36,16 @@ export const SearchBar = ({}) => {
 
   return (
     <FormControl fullWidth className={classes.margin} variant="outlined">
-      <OutlinedInput
-        id="outlined-adornment-amount"
+      <InputBase
+        style={{
+          border: '5px solid black'
+        }}
+        id="location-searchbar"
+        className={classes.margin}
+        defaultValue="Naked input"
         value={values.location}
         onChange={handleChange("location")}
-        labelWidth={60}
+        inputProps={{ 'aria-label': 'naked' }}
       />
     </FormControl>
   );

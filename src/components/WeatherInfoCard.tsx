@@ -1,16 +1,16 @@
 import React from 'react';
 
-interface IWeatherCardProps{
+interface IWeatherInfoCardProps {
     day: String
     high: number
     low: number
     icon: String
 }
 
-export const weathercard = ({day, high, low, icon}: IWeatherCardProps) => {
+export const WeatherInfoCard = ({ day, high, low, icon }: IWeatherInfoCardProps) => {
     return (
         <>
-        
+
         </>
     )
 }
