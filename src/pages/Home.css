@@ -2,6 +2,12 @@
 
 body {
     background-color: #1F36B5;
+    background-image: url('../assets/blue-blob.svg');
+    background-position: right 100%;
+    background-position-x: 100%;
+    background-attachment: fixed;
+    background-size: 72% 100%; 
+    background-repeat: no-repeat;
 }
 
 #title {

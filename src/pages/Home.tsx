@@ -4,9 +4,9 @@ import './Home.css'
 
 export const Home = ({}) => {
     return (
-        <>
-            <h1 id='title'>Forecast Now<img id='sun' src={require('../assets/wi-day-sunny.svg')} /></h1>
-            <SearchBar />
-        </>
+      <>
+        <h1 id='title'>Forecast Now<img id='sun' src='../assets/wi-day-sunny.svg' /></h1>
+        <SearchBar />
+      </>
     );
 }
