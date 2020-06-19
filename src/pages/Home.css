@@ -6,8 +6,15 @@ body {
     background-position: right 100%;
     background-position-x: 100%;
     background-attachment: fixed;
-    background-size: 72% 100%; 
+    background-size: 78.3% 100%; 
     background-repeat: no-repeat;
+}
+
+div {
+    background-image: url('../assets/wi-day-sunny.svg');
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-attachment: fixed;
 }
 
 #title {
@@ -22,6 +29,6 @@ body {
     position: fixed;
     width: 83.18px;
     height: 83.26px;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-top: 4px;
 }

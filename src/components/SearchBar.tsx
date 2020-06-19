@@ -38,10 +38,14 @@ export const SearchBar = ({}) => {
     <FormControl fullWidth className={classes.margin} variant="outlined">
       <InputBase
         style={{
-          border: '5px solid black',
-          width: '500px',
+          border: '5px solid #898989',
+          width: '812px',
+          height: '63px',
+          borderWidth: '2',
           position: 'fixed',
-          marginLeft: '500px'
+          marginLeft: '265px',
+          marginTop: '-50px',
+          borderRadius: '30px',
         }}
         id="location-searchbar"
         className={classes.margin}
